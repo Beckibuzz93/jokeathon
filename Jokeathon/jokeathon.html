@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Montserrat&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script> <!-- Normal p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script> <!-- p5.dom.js library -->
+    <title>Joke-athon</title>
+</head>
+<body>
+    <div id="container">
+        <main>
+            <h1> Joke-athon </h1>
+            <p id="pTag"> Click the button for a random joke! </p>
+            <div class="button">
+                <button class="bouncy"  style="animation-delay:0.07s" onclick="joke()"> Tell me a joke </button>
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="jokeathon-background.js"></script>
+    <script type="text/javascript" src="jokeathon-api.js"></script>
+</body>
+</html> 
